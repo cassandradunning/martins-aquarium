@@ -1,0 +1,12 @@
+aside {
+    width: 40%;
+    padding-left: .25rem;
+    margin-left: .25rem;
+    float: right;
+    color: #000000;
+}
+
+aside > p {
+    margin: 1rem;
+}
+

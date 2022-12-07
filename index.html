@@ -1,21 +1,19 @@
-<!-- BOOK 3: Martin's Aquarium 
-
-Build a web page that lists fish, 
-quotes, harvesting locations, and fish/tank care 
-tips on the right side of the page -->
-
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
         <title>Martin's Aquarium</title>
         <link rel="stylesheet" href="styles/main.css">
+        
         <h1> Martin's Aquarium</h1>
       </head>
 
       <body>
+        <article>
         <aside>
             <h3>Fish Tank Care</h3>
             <ul>Properly condition your water.</ul>
@@ -28,78 +26,37 @@ tips on the right side of the page -->
             <ul>Choose the right size for your tank.</ul>
         </aside>
 
-          <article class="fish">
-            <h2>What's in Stock</h2>
-            </article>
-                <section>
-                <h3>Nemo</h3>
-                <img src="https://oceanfloorstore.com/wp-content/uploads/2020/05/ocellaris-clownfish.jpg" alt="Clownfish Image" width="200px">
-                
-                <section call="list">
-                    <ul>Species: Clown Fish</ul>
-                    <ul>Length: 10cm</ul>
-                    <ul>Location: Indo-Pacific</ul>
-                    <ul>Diet: Omnivore</ul> 
-                </section>
-
-                <section>
-                    <h3>Distress</h3>
-                    <img src="https://oceanfloorstore.com/wp-content/uploads/2020/05/yellowtail-damselfish.jpg" alt="Damselfish Image" width="200px">
+            <section class="fishlist">
+            
                     
-                    <section call="list">
-                        <ul>Species: Damselfish</ul>
-                        <ul>Length: 30cm</ul>
-                        <ul>Location: Indo-Pacific</ul>
-                        <ul>Diet: Omnivore</ul> 
-                    </section>
-             
-                <section>
-                    <h3>Shiny</h3>
-                    <img src="https://oceanfloorstore.com/wp-content/uploads/2020/05/green-chromis.jpg" alt="Green Chromis Image" width="200px">
-                    
-                    <section call="list">
-                        <ul>Species: Green Chromis</ul>
-                        <ul>Length: 10cm</ul>
-                        <ul>Location: Indo-Pacific</ul>
-                        <ul>Diet: Omnivore</ul> 
-                </section>
+            </section>
+               
+            
+    
 
-                <section>
-                    <h3>Angel</h3>
-                    <img src="https://www.thesprucepets.com/thmb/hBRdM5jE2tk7tMU3yk7T11WVRxA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1023371392-5eb710c7018f4c5d8a3a99438422db02.jpg" alt="Chevron Tang" width="200px">
-                    
-                    <section call="list">
-                        <ul>Species: Chevron Tang</ul>
-                        <ul>Length: 10cm</ul>
-                        <ul>Location: Polynesia</ul>
-                        <ul>Diet: Herbivore</ul> 
-                 </section>
-
-                 <section>
-                    <h3>Sal</h3>
-                    <img src="https://www.thesprucepets.com/thmb/4s507x1-ZXHzvycPiVQb1imfj4w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-520760798-5a36df62482c520036b333f8.jpg" alt="Sally Lightfoot" width="200px">
-                    
-                    <section call="list">
-                        <ul>Species: Sally Lightfoot</ul>
-                        <ul>Length: 2in</ul>
-                        <ul>Location: Caribbean</ul>
-                        <ul>Diet: Omnivore</ul> 
-                 </section>
-
+        
             <section call="locations">
                 <h2> Travel Tips</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-                    in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p> Make sure you travel with a friend and meet up with local harvesters to point you in the right direction. </p>
 
                 <h2>Harvesting Locations</h2>
-                <ul> <a href="https://www.govtrack.us/congress/bills/116/s3820" rel="external">Great Barrier Reef</a></ul>
+                <ul> <a href="https://greatbarrierreef.org/" rel="external">Great Barrier Reef</a></ul>
                 <ul><a href="https://reefsofcozumel.com/" rel="external">Cozumel Reef</a></ul>
                 <ul><a href="https://www.prideofmaui.com/destinations/molokini/" rel="external">Molokini Crater</a></ul>
-                 </section>
-            
+            </section>
+        
+    </article>  
+    <!-- Now, you're ready to see if your fish print to the console. But, first you'll need 
+    to tell your browser to load and run your javascript. To do that, add a <script> tag 
+        to index.html, right above the closing <body> tag. -->
 
-                
-            <body>
+        <script type="module" src="./scripts/main.js"></script>
+
+        <!-- Designating main.js as type="module" allows you to utilize the import and export 
+            syntax. Note that main.js is the only file we need to load via a <script> tag. The 
+            import statements will cause a daisy-chain effect of sorts, causing any other 
+            imported modules to also be loaded and evaluated by the browser. -->
+    
+         
+        </body>  
+    

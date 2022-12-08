@@ -30,8 +30,9 @@ import {FishList} from './FishList.js'
     Use # for elements with an "id" attribute
  */
 
-const parentHTMLElement = document.querySelector(".fishlist")
+const parentHTMLElement = document.querySelector(".fishcard")
 
 
 parentHTMLElement.innerHTML = FishList()
 
+   

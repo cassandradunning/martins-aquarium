@@ -5,7 +5,7 @@ const database = {
     fish: [ 
        {
         id:1,
-        image:"tinyurl.com/5x65p8h4",
+        image:"https://oceanfloorstore.com/wp-content/uploads/2020/05/ocellaris-clownfish.jpg",
         name: "Nemo",
         species: "Clown Fish",
         length: "10cm",
@@ -14,7 +14,7 @@ const database = {
        },
        {
         id:2,
-        image:"tinyurl.com/4xcctkv8",
+        image:"https://oceanfloorstore.com/wp-content/uploads/2020/05/yellowtail-damselfish.jpg",
         name: "Distress",
         species:"Damselfish",
         length: "30cm",
@@ -23,7 +23,7 @@ const database = {
        },
        {
         id:3,
-        image:"https://tinyurl.com/3ue44pb5",
+        image:"https://oceanfloorstore.com/wp-content/uploads/2020/05/green-chromis.jpg",
         name: "Shiny",
         species:"Green Chromis",
         length: "10cm",
@@ -32,7 +32,7 @@ const database = {
        },
        {
         id:4,
-        image:"https://tinyurl.com/577wjjdc",
+        image:"https://www.thesprucepets.com/thmb/hBRdM5jE2tk7tMU3yk7T11WVRxA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1023371392-5eb710c7018f4c5d8a3a99438422db02.jpg",
         species:"Chevron Tang",
         length: "10cm",
         location: "Polynesia",
@@ -40,7 +40,7 @@ const database = {
        },
        {
         id:5,
-        image: "https://tinyurl.com/4ryceemw",
+        image: "https://www.thesprucepets.com/thmb/4s507x1-ZXHzvycPiVQb1imfj4w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-520760798-5a36df62482c520036b333f8.jpg",
         name: "Sal",
         species:"Sally Lightfoot",
         length: "2in",
@@ -49,7 +49,7 @@ const database = {
        },
        {
         id:6,
-        image: "https://tinyurl.com/4ryceemw",
+        image:"https://reefbuilders.com/wp-content/blogs.dir/1/files/2020/05/rock-beauty1.jpg",
         name: "Rocky",
         species:"Rock Beauty",
         length: "12in",
